@@ -11,54 +11,72 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science**, Nanjing University, 2023 - Present
+  * Research Focus: Formal methods on real-world systems
+  * Advisor: [Advisor name - placeholder]
+  * Department of Computer Science
 
-Work experience
+* **[Previous Degree - placeholder]**, [University - placeholder], [Year - placeholder]
+  * Major: [Major - placeholder]
+  * GPA: [GPA - placeholder]
+
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Formal methods on real-world systems
+* [Specific area 1 - placeholder]
+* [Specific area 2 - placeholder]
+* [Specific area 3 - placeholder]
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research Experience
+======
+### [Research Project Title - placeholder]
+*[Duration - placeholder]*
+* [Description of the project and your contributions - placeholder]
+* [Key achievements or findings - placeholder]
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+### [Research Project Title - placeholder]
+*[Duration - placeholder]*
+* [Description of the project and your contributions - placeholder]
+* [Key achievements or findings - placeholder]
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * [Language 1 - placeholder]
+  * [Language 2 - placeholder]
+  * [Language 3 - placeholder]
+* Tools & Technologies
+  * [Tool/Technology 1 - placeholder]
+  * [Tool/Technology 2 - placeholder]
+  * [Tool/Technology 3 - placeholder]
+* Languages
+  * Chinese (Native)
+  * English ([Proficiency level - placeholder])
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
+
+Awards and Honors
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* [Award/Honor - placeholder], [Year - placeholder]
+* [Award/Honor - placeholder], [Year - placeholder]
+
+Service and Leadership
 ======
-* Currently signed in to 43 different slack teams
+* [Conference/Journal review service - placeholder]
+* [Academic service - placeholder]
+
+Contact
+======
+* Email: cq@smail.nju.edu.cn
+* GitHub: [https://github.com/Qian-Cheng-nju](https://github.com/Qian-Cheng-nju)
+* Address: Department of Computer Science, Nanjing University, Nanjing, Jiangsu, China
