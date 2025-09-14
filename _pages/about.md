@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Qian Cheng (程潜), a second-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing rigorous techniques to ensure the correctness and reliability of complex software systems.
+I am Qian Cheng (程潜), a first-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing rigorous techniques to ensure the correctness and reliability of complex software systems.
 
 ## Research Interests
 
@@ -18,11 +18,12 @@ My primary research area is **Formal Methods on Real-World Systems**. I am parti
 
 ## Education
 
-- **PhD in Computer Science**, Nanjing University, 2023 - Present
-  - Advisor: [Advisor name - placeholder]
+- **PhD in Computer Science**, Nanjing University, 2024 - Present
+  - Advisor: [Yu Huang](https://cs.nju.edu.cn/yuhuang/)
   - Research focus: Formal methods on real-world systems
 
-- **[Previous degree - placeholder]**, [University - placeholder], [Year - placeholder]
+- **Bachelor in Computer Science**, Nanjing University, 2020 - 2024
+  - Department of Computer Science
 
 ## News
 

@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Computer Science**, Nanjing University, 2023 - Present
+* **Ph.D. in Computer Science**, Nanjing University, 2024 - Present
   * Research Focus: Formal methods on real-world systems
-  * Advisor: [Advisor name - placeholder]
+  * Advisor: [Yu Huang](https://cs.nju.edu.cn/yuhuang/)
   * Department of Computer Science
 
-* **[Previous Degree - placeholder]**, [University - placeholder], [Year - placeholder]
-  * Major: [Major - placeholder]
+* **Bachelor in Computer Science**, Nanjing University, 2020 - 2024
+  * Department of Computer Science
   * GPA: [GPA - placeholder]
 
 Research Interests
