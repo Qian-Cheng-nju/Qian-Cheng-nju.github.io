@@ -30,6 +30,11 @@ My primary research area is **Formal Methods on Real-World Systems**. I am parti
 - [Date - placeholder]: [Recent news or achievement - placeholder]
 - [Date - placeholder]: [Recent news or achievement - placeholder]
 
+## Projects
+
+- [SysMoBench](https://github.com/specula-org/SysMoBench): Benchmark suite and artifacts for system modeling and runtime verification.
+- [Specula](https://github.com/specula-org/Specula): Specification-focused tooling for monitoring real-world systems.
+
 ## Contact
 
 Feel free to reach out to me via email at cq@smail.nju.edu.cn

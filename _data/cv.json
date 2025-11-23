@@ -142,11 +142,18 @@
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "SysMoBench",
       "category": "portfolio",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/specula-org/SysMoBench",
+      "description": "Benchmark suite and artifacts for system modeling and runtime verification; contributor on experiments and documentation."
+    },
+    {
+      "name": "Specula",
+      "category": "portfolio",
+      "date": "",
+      "url": "https://github.com/specula-org/Specula",
+      "description": "Specification-focused tooling for monitoring real-world systems; contributor on tooling improvements and evaluations."
     }
   ]
 }

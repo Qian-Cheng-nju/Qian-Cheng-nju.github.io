@@ -39,6 +39,11 @@ Research Experience
 * [Description of the project and your contributions - placeholder]
 * [Key achievements or findings - placeholder]
 
+Projects
+======
+* **SysMoBench** — Benchmark suite for system modeling and runtime verification; contributor on experiments and documentation. [GitHub](https://github.com/specula-org/SysMoBench)
+* **Specula** — Tooling for specification engineering and runtime monitoring; contributor on tooling improvements and evaluations. [GitHub](https://github.com/specula-org/Specula)
+
 Skills
 ======
 * Programming Languages

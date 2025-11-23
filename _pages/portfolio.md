@@ -5,36 +5,14 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-## Research Projects
+## Projects
 
-### [Project Title 1 - placeholder]
-*[Duration - placeholder]*
+### SysMoBench
+*Repository: [github.com/specula-org/SysMoBench](https://github.com/specula-org/SysMoBench)*
 
-[Description of the project, your role, and key achievements - placeholder]
+Benchmark suite and artifacts for evaluating system modeling and runtime verification techniques. I maintain experiments and documentation.
 
-### [Project Title 2 - placeholder]
-*[Duration - placeholder]*
+### Specula
+*Repository: [github.com/specula-org/Specula](https://github.com/specula-org/Specula)*
 
-[Description of the project, your role, and key achievements - placeholder]
-
-## Software Projects
-
-### [Software Project 1 - placeholder]
-*Technologies: [List technologies - placeholder]*
-
-[Description of the project and its impact - placeholder]
-
-- [GitHub repository link - placeholder]
-- [Demo/Documentation link - placeholder]
-
-### [Software Project 2 - placeholder]
-*Technologies: [List technologies - placeholder]*
-
-[Description of the project and its impact - placeholder]
-
-- [GitHub repository link - placeholder]
-- [Demo/Documentation link - placeholder]
-
----
-
-*This page will be updated with my portfolio projects.*
+Speculation- and specification-focused tooling for monitoring real-world systems. I contribute to tooling improvements and evaluations.
