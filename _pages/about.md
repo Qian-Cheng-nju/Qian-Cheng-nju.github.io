@@ -11,10 +11,10 @@ I am Qian Cheng (程潜), a first-year PhD student in the Department of Computer
 
 ## Research Interests
 
-My primary research area is **Formal Methods on Real-World Systems**. I am particularly interested in:
-- [Research interest 1 - placeholder]
-- [Research interest 2 - placeholder]
-- [Research interest 3 - placeholder]
+My primary research area is **formal methods for real-world systems**, especially model checking and specification-driven assurance. I am also exploring how **generative AI** can help create and refine formal specifications for complex computer systems. I am particularly interested in:
+- Model checking and verification for large, evolving systems
+- AI-assisted authoring and maintenance of formal specifications
+- Generative AI techniques that bridge software engineering and formal methods
 
 ## Education
 
@@ -27,8 +27,8 @@ My primary research area is **Formal Methods on Real-World Systems**. I am parti
 
 ## News
 
-- [Date - placeholder]: [Recent news or achievement - placeholder]
-- [Date - placeholder]: [Recent news or achievement - placeholder]
+- **2025-08**: Winners of the [TLAi+ Challenge](https://foundation.tlapl.us/challenge/index.html).
+- **2024-11-12**: Presented Specula at the TLA+ Community meeting ([talk recording](https://www.youtube.com/watch?v=BoIjXJXN3GU&t=771s)).
 
 ## Projects
 
