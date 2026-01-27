@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Qian Cheng (程潜), a first-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing rigorous techniques to ensure the correctness and reliability of complex software systems.
+I am Qian Cheng (程潜), a second-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing rigorous techniques to ensure the correctness and reliability of complex software systems.
 
 ## Research Interests
 
@@ -27,6 +27,7 @@ My primary research area is **formal methods for real-world systems**, especiall
 
 ## News
 
+- **2025-01**: Our paper "SysMoBench" is accepted to ICLR 2026!
 - **2025-08**: Winners of the [TLAi+ Challenge](https://foundation.tlapl.us/challenge/index.html).
 - **2024-11-12**: Presented Specula at the TLA+ Community meeting ([talk recording](https://www.youtube.com/watch?v=BoIjXJXN3GU&t=771s)).
 
@@ -34,6 +35,11 @@ My primary research area is **formal methods for real-world systems**, especiall
 
 - [SysMoBench](https://github.com/specula-org/SysMoBench): Benchmark suite and artifacts for system modeling and runtime verification.
 - [Specula](https://github.com/specula-org/Specula): Specification-focused tooling for monitoring real-world systems.
+
+## Publications
+
+- **Qian Cheng**, Ruize Tang, Emilie Ma, Finn Hackett, Peiyang He, Yiming Su, Ivan Beschastnikh, Yu Huang, Xiaoxing Ma, Tianyin Xu. "SysMoBench: Evaluating AI on Formally Modeling Complex Real-World Systems." *ICLR 2026*. [[arXiv]](https://arxiv.org/abs/2509.23130)
+- Tang Ruize, Huang Yu, Ouyang Lingzhi, **Cheng Qian**, Zhang Yuqi, Ma Xiaoxing. "Research Progress on Distributed System Model Checking." *Journal of Software*. (In Chinese)
 
 ## Contact
 
