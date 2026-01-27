@@ -27,9 +27,9 @@ My primary research area is **formal methods for real-world systems**, especiall
 
 ## News
 
-- **2025-01**: Our paper "SysMoBench" is accepted to ICLR 2026!
+- **2026-01**: Our paper "SysMoBench" is accepted to ICLR 2026!
+- **2025-11-12**: Presented Specula at the TLA+ Community meeting ([talk recording](https://www.youtube.com/watch?v=BoIjXJXN3GU&t=771s)).
 - **2025-08**: Winners of the [TLAi+ Challenge](https://foundation.tlapl.us/challenge/index.html).
-- **2024-11-12**: Presented Specula at the TLA+ Community meeting ([talk recording](https://www.youtube.com/watch?v=BoIjXJXN3GU&t=771s)).
 
 ## Projects
 
