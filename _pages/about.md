@@ -7,12 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Qian Cheng (程潜), a second-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing rigorous techniques to ensure the correctness and reliability of complex software systems.
+I am Qian Cheng (程潜), a second-year PhD student in the Department of Computer Science at Nanjing University. My research focuses on formal methods on real-world systems, where I work on developing techniques to ensure the correctness and reliability of complex software systems.
 
 ## Research Interests
 
 My primary research area is **formal methods for real-world systems**, especially model checking and specification-driven assurance. I am also exploring how **generative AI** can help create and refine formal specifications for complex computer systems. I am particularly interested in:
-- Model checking and verification for large, evolving systems
 - AI-assisted authoring and maintenance of formal specifications
 - Generative AI techniques that bridge software engineering and formal methods
 
