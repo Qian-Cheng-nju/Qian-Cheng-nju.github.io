@@ -1,0 +1,103 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+% Colors
+\definecolor{linkblue}{RGB}{0,51,102}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Custom commands
+\newcommand{\cvitem}[2]{
+    \textbf{#1} \hfill #2
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Qian Cheng}}\\[4pt]
+    \faEnvelope\ \href{mailto:cq@smail.nju.edu.cn}{cq@smail.nju.edu.cn} \quad
+    \faGithub\ \href{https://github.com/Qian-Cheng-nju}{Qian-Cheng-nju} \quad
+    \faGlobe\ \href{https://qian-cheng-nju.github.io}{qian-cheng-nju.github.io}
+\end{center}
+
+% Education
+\section{Education}
+
+\cvitem{Nanjing University}{Nanjing, China}\\
+Ph.D. in Computer Science and Technology \hfill Sep 2024 -- Present
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+    \item Advisor: Prof. Yu Huang
+    \item Research Focus: Formal Methods for Real-World Systems
+\end{itemize}
+
+\vspace{6pt}
+
+\cvitem{Nanjing University}{Nanjing, China}\\
+B.S. in Computer Science and Technology \hfill Sep 2020 -- Jun 2024
+
+% Publications
+\section{Publications}
+
+\begin{enumerate}[leftmargin=*, nosep, topsep=2pt]
+    \item \textbf{Qian Cheng}, Ruize Tang, Emilie Ma, Finn Hackett, Peiyang He, Yiming Su, Ivan Beschastnikh, Yu Huang, Xiaoxing Ma, Tianyin Xu. ``SysMoBench: Evaluating AI on Formally Modeling Complex Real-World Systems.'' \textit{ICLR 2026}. \href{https://arxiv.org/abs/2509.23130}{[arXiv]}
+
+    \item Ruize Tang, Yu Huang, Lingzhi Ouyang, \textbf{Qian Cheng}, Yuqi Zhang, Xiaoxing Ma. ``Research Progress on Distributed System Model Checking.'' \textit{Journal of Software}.
+\end{enumerate}
+
+% Awards
+\section{Awards \& Honors}
+
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+    \item \textbf{TLAi+ Challenge Winner} \hfill 2025\\
+    TLA+ Foundation AI Formal Specification Challenge (Project: Specula)
+
+    \item \textbf{National First Prize}, The 18th ``Challenge Cup'' National Undergraduate Curricular Academic Science and Technology Contest \hfill 2023\\
+    Project: Fluid -- Cloud-Native Data Orchestration and Acceleration (CNCF Incubating Project)
+\end{itemize}
+
+% Projects
+\section{Projects}
+
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+    \item \textbf{SysMoBench} (Lead Developer) \hfill \href{https://github.com/specula-org/SysMoBench}{github.com/specula-org/SysMoBench}\\
+    Benchmark and artifacts for evaluating AI on formally modeling complex real-world systems (ICLR 2026)
+
+    \item \textbf{Specula} (Lead Developer) \hfill \href{https://github.com/specula-org/Specula}{github.com/specula-org/Specula}\\
+    Specification-focused tooling for monitoring and verifying real-world distributed systems
+
+    \item \textbf{System Intelligence Benchmark} (Contributor) \hfill \href{https://github.com/sys-intelligence/system-intelligence-benchmark}{[GitHub]}\\
+    Benchmark for evaluating AI capabilities on system intelligence tasks
+
+    \item \textbf{Fluid} (Contributor) \hfill \href{https://fluid-cloudnative.github.io}{fluid-cloudnative.github.io}\\
+    CNCF Incubating project for elastic data abstraction and acceleration on Kubernetes
+\end{itemize}
+
+% Presentations
+\section{Presentations}
+
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+    \item ``Specula: Specification-Focused Monitoring for Real-World Systems'' \hfill \href{https://www.youtube.com/watch?v=BoIjXJXN3GU&t=771s}{[Video Recording]}\\
+    TLA+ Community Meeting \hfill Nov 2025
+\end{itemize}
+
+\end{document}
