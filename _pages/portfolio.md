@@ -1,18 +1,30 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-## Projects
+### Specula
+
+An agentic system for finding deep bugs in concurrent and distributed system code. Specula generates and validates TLA+ specifications, uses model checking to discover violations, and reproduces confirmed findings in the implementation.
+
+[[Website](https://specula.info/)] [[GitHub](https://github.com/specula-org/Specula)] [[Paper](https://arxiv.org/abs/2607.25333)]
+
+### TLAPS-Bench
+
+A benchmark for evaluating AI's ability to write machine-checked proofs for the TLA+ Proof System. It supports both proof completion and proof construction from scratch, with reproducible evaluation and a public leaderboard.
+
+[[GitHub](https://github.com/specula-org/tlaps-bench)] [[Leaderboard](https://specula-org.github.io/tlaps-bench-website/)]
 
 ### SysMoBench
-*Repository: [github.com/specula-org/SysMoBench](https://github.com/specula-org/SysMoBench)*
 
-Benchmark suite and artifacts for evaluating system modeling and runtime verification techniques. I maintain experiments and documentation.
+A benchmark for evaluating AI's ability to formally model complex real-world systems. It measures whether generated TLA+ specifications are syntactically valid, executable, aligned with implementation behavior, and consistent with correctness properties.
 
-### Specula
-*Repository: [github.com/specula-org/Specula](https://github.com/specula-org/Specula)*
+[[Website](https://sysmobench.com/)] [[GitHub](https://github.com/specula-org/SysMoBench)] [[Paper](https://arxiv.org/abs/2509.23130)]
 
-Speculation- and specification-focused tooling for monitoring real-world systems. I contribute to tooling improvements and evaluations.
+### System Intelligence Benchmark
+
+A benchmark suite for evaluating LLMs and AI systems across computing-system capabilities, including systems education, artifact evaluation, formal modeling, verification, and operations.
+
+[[GitHub](https://github.com/sys-intelligence/system-intelligence-benchmark)]
