@@ -1,19 +1,45 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Writing and Coverage"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>A selection of articles I have written and independent coverage of projects I work on.</p>
+
+<h2>Writing</h2>
+
+<ul>
+  <li>
+    <strong>May 7, 2026</strong> —
+    <a href="https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/">Can LLMs Model Real-World Systems in TLA+?</a><br>
+    ACM SIGOPS Blog · Qian Cheng, Ruize Tang, Emilie Ma, Finn Hackett, Peiyang He, Yiming Su, Ivan Beschastnikh, Yu Huang, Xiaoxing Ma, and Tianyin Xu.
+  </li>
+</ul>
+
+<h2>Coverage and Reviews</h2>
+
+<ul>
+  <li>
+    <strong>August 12, 2026</strong> —
+    <a href="https://muratbuffalo.blogspot.com/2026/08/specula-scaling-formal-specifications.html">Specula: Scaling Formal Specifications for Autonomous Model Checking of System Code</a><br>
+    Murat Demirbas, <em>Metadata</em>.
+  </li>
+  <li>
+    <strong>April 1, 2026</strong> —
+    <a href="https://emptysqua.re/blog/review-sysmobench/">Review: SysMoBench — Evaluating AI on Formally Modeling Complex Real-World Systems</a><br>
+    A. Jesse Jiryu Davis.
+  </li>
+  <li>
+    <strong>March 24, 2026</strong> —
+    <a href="https://muratbuffalo.blogspot.com/2026/03/sysmobench-evaluating-ai-on-formally.html">SysMoBench: Evaluating AI on Formally Modeling Complex Real-World Systems</a><br>
+    Murat Demirbas, <em>Metadata</em>.
+  </li>
+  <li>
+    <strong>August 12, 2025</strong> —
+    <a href="https://foundation.tlapl.us/challenge/index.html">Specula Wins First Place in the 2025 TLAi+ Challenge</a><br>
+    TLA+ Foundation.
+  </li>
+</ul>
