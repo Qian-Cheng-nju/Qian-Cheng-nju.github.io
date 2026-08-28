@@ -6,7 +6,6 @@ permalink: /publication/2025-12-20-distributed-system-model-checking
 excerpt: 'This paper provides a comprehensive survey of research progress in distributed system model checking.'
 date: 2025-12-20
 venue: 'Journal of Software'
-paperurl: ''
 ---
 
 This paper presents a comprehensive survey on the research progress of distributed system model checking, covering key techniques, methodologies, and recent advances in the field.

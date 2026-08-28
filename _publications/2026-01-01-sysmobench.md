@@ -6,7 +6,6 @@ permalink: /publication/2026-01-26-sysmobench
 excerpt: 'A benchmark suite for evaluating AI capabilities on formally modeling complex real-world systems.'
 date: 2026-01-01
 venue: 'ICLR 2026'
-paperurl: 'https://arxiv.org/abs/2509.23130'
 ---
 
 SysMoBench is a benchmark suite for evaluating AI capabilities on formally modeling complex real-world systems.

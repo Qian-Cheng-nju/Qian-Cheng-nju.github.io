@@ -15,7 +15,7 @@ An agentic system for finding deep bugs in concurrent and distributed system cod
 
 A benchmark for evaluating AI's ability to write machine-checked proofs for the TLA+ Proof System. It supports both proof completion and proof construction from scratch, with reproducible evaluation and a public leaderboard.
 
-[[GitHub](https://github.com/specula-org/tlaps-bench)] [[Leaderboard](https://specula-org.github.io/tlaps-bench-website/)]
+[[Website](https://specula-org.github.io/tlaps-bench-website/)] [[GitHub](https://github.com/specula-org/tlaps-bench)]
 
 ### SysMoBench
 

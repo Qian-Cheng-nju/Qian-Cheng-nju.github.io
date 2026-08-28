@@ -35,9 +35,9 @@ My primary research area is **formal methods for real-world systems**, especiall
 
 ## Projects
 
-- [SysMoBench](https://github.com/specula-org/SysMoBench): Benchmark suite and artifacts for system modeling and runtime verification.
 - [Specula](https://github.com/specula-org/Specula): An agentic system that generates and validates TLA+ specifications, uses model checking to find deep bugs, and reproduces them in real system code. [[Website](https://specula.info/)] [[Paper](https://arxiv.org/abs/2607.25333)]
-- [TLAPS-Bench](https://github.com/specula-org/tlaps-bench): A benchmark for evaluating AI's ability to write machine-checked TLAPS proofs, covering both proof completion and proof construction from scratch. [[Leaderboard](https://specula-org.github.io/tlaps-bench-website/)]
+- [TLAPS-Bench](https://github.com/specula-org/tlaps-bench): A benchmark for evaluating AI's ability to write machine-checked TLAPS proofs, covering both proof completion and proof construction from scratch. [[Website](https://specula-org.github.io/tlaps-bench-website/)]
+- [SysMoBench](https://github.com/specula-org/SysMoBench): Benchmark suite and artifacts for system modeling and runtime verification. [[Website](https://sysmobench.com/)]
 
 ## Publications
 
