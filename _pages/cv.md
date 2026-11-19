@@ -7,81 +7,47 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download CV as PDF]({{ '/cv/cv.pdf' | relative_url }})
 
-Education
-======
-* **Ph.D. in Computer Science**, Nanjing University, 2024 - Present
-  * Research Focus: Formal methods on real-world systems
-  * Advisor: [Yu Huang](https://cs.nju.edu.cn/yuhuang/)
-  * Department of Computer Science
+## Education
 
-* **Bachelor in Computer Science**, Nanjing University, 2020 - 2024
-  * Department of Computer Science
-  * GPA: [GPA - placeholder]
+- **Ph.D. in Computer Science and Technology**, Nanjing University, September 2024–present. Advisor: [Yu Huang](https://cs.nju.edu.cn/yuhuang/).
+- **B.S. in Computer Science and Technology**, Nanjing University, September 2020–June 2024.
 
-Research Interests
-======
-* Formal methods on real-world systems
-* [Specific area 1 - placeholder]
-* [Specific area 2 - placeholder]
-* [Specific area 3 - placeholder]
+## Research Interests
 
-Research Experience
-======
-### [Research Project Title - placeholder]
-*[Duration - placeholder]*
-* [Description of the project and your contributions - placeholder]
-* [Key achievements or findings - placeholder]
+I use AI agents to write formal specifications, check concurrent and distributed systems for bugs, and prove properties of those systems with TLA+.
 
-### [Research Project Title - placeholder]
-*[Duration - placeholder]*
-* [Description of the project and your contributions - placeholder]
-* [Key achievements or findings - placeholder]
+## Publications
 
-Projects
-======
-* **SysMoBench** — Benchmark suite for system modeling and runtime verification; contributor on experiments and documentation. [GitHub](https://github.com/specula-org/SysMoBench)
-* **Specula** — Tooling for specification engineering and runtime monitoring; contributor on tooling improvements and evaluations. [GitHub](https://github.com/specula-org/Specula)
+{% assign papers = site.publications | sort: 'date' | reverse %}
+{% for paper in papers %}- [{{ paper.title }}]({{ paper.url | relative_url }}). *{{ paper.venue }}*, {{ paper.date | date: '%Y' }}.
+{% endfor %}
 
-Skills
-======
-* Programming Languages
-  * [Language 1 - placeholder]
-  * [Language 2 - placeholder]
-  * [Language 3 - placeholder]
-* Tools & Technologies
-  * [Tool/Technology 1 - placeholder]
-  * [Tool/Technology 2 - placeholder]
-  * [Tool/Technology 3 - placeholder]
-* Languages
-  * Chinese (Native)
-  * English ([Proficiency level - placeholder])
+## Projects
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- [Specular](https://specularhq.ai/) (formerly Specula) generates TLA+ specifications from system code, checks them for bugs, and reproduces the findings in the implementation.
+- [TLAPS-Bench](https://specular-org.github.io/tlaps-bench-website/) evaluates AI agents on machine-checked proofs for real-world TLA+ specifications.
+- [SysMoBench](https://sysmobench.com/) evaluates AI agents on writing formal specifications that match system implementations.
+- [System Intelligence Benchmark](https://github.com/sys-intelligence/system-intelligence-benchmark) evaluates AI capabilities across computing systems tasks.
+- [Fluid](https://fluid-cloudnative.github.io/) is a CNCF project for data orchestration and acceleration on Kubernetes.
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+## Talks
 
-Awards and Honors
-======
-* [Award/Honor - placeholder], [Year - placeholder]
-* [Award/Honor - placeholder], [Year - placeholder]
+{% for talk in site.talks reversed %}- [{{ talk.title }}]({{ talk.link }}). {{ talk.venue }}, {{ talk.date | date: '%B %Y' }}.
+{% endfor %}
 
-Service and Leadership
-======
-* [Conference/Journal review service - placeholder]
-* [Academic service - placeholder]
+## Awards and Honors
 
-Contact
-======
-* Email: cq@smail.nju.edu.cn
-* GitHub: [https://github.com/Qian-Cheng-nju](https://github.com/Qian-Cheng-nju)
-* Address: Department of Computer Science, Nanjing University, Nanjing, Jiangsu, China
+- **TLAi+ Challenge**, first place with Specula, 2025.
+- **18th Challenge Cup**, National First Prize with Fluid, 2023.
+
+## Languages
+
+- Chinese (native)
+
+## Contact
+
+Department of Computer Science, Nanjing University, Nanjing, Jiangsu, China.
+
+[cq@smail.nju.edu.cn](mailto:cq@smail.nju.edu.cn) · [GitHub](https://github.com/Qian-Cheng-nju)

@@ -1,159 +1,113 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Qian Cheng",
+    "email": "cq@smail.nju.edu.cn",
+    "website": "https://Qian-Cheng-nju.github.io",
+    "summary": "I use AI agents to write formal specifications, check concurrent and distributed systems for bugs, and prove properties of those systems with TLA+.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Nanjing, Jiangsu, China"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Qian-Cheng-nju",
+        "url": "https://github.com/Qian-Cheng-nju"
       }
-    ]
+    ],
+    "label": "PhD Student in Computer Science, researching formal methods on real-world systems"
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "Nanjing University",
+      "area": "Ph.D. in Computer Science and Technology",
+      "startDate": "September 2024",
+      "endDate": "present"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Nanjing University",
+      "area": "B.S. in Computer Science and Technology",
+      "startDate": "September 2020",
+      "endDate": "June 2024"
     }
   ],
   "skills": [],
-  "languages": [],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "native"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "TLAPS-Bench: Formally Proving Correctness of Real-World System Specifications with TLA+ Proof System",
+      "publisher": "arXiv",
+      "releaseDate": "2026-11-02",
+      "website": "/publication/2026-11-02-tlaps-bench",
+      "summary": "A benchmark and execution harness for AI agents that construct machine-checked proofs of real-world TLA+ specifications."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Specula: Scaling Formal Specifications for Autonomous Model Checking of System Code",
+      "publisher": "arXiv",
+      "releaseDate": "2026-07-28",
+      "website": "/publication/2026-07-28-specula",
+      "summary": "An agentic system that generates and validates TLA+ specifications, finds deep bugs through model checking, and reproduces them in system code."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Research Progress on Distributed System Model Checking Technologies",
+      "publisher": "Journal of Software",
+      "releaseDate": "2026-05-06",
+      "website": "/publication/2025-12-20-distributed-system-model-checking",
+      "summary": "This paper provides a comprehensive survey of research progress in distributed system model checking."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SysMoBench: Evaluating AI on Formally Specifying Complex Real-World Systems",
+      "publisher": "ICLR",
+      "releaseDate": "2026-01-01",
+      "website": "/publication/2026-01-26-sysmobench",
+      "summary": "A benchmark suite for evaluating AI capabilities on formally modeling complex real-world systems."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "name": "Specula: Generating TLA+ Specifications from System Code Using Generative AI",
+      "event": "TLA+ Community Meeting",
+      "date": "2025-11-12",
+      "location": "Online",
+      "description": "An introduction to Specula and its approach to generating TLA+ specifications from real system code using generative AI."
     }
   ],
   "portfolio": [
     {
-      "name": "SysMoBench",
-      "category": "portfolio",
-      "date": "",
-      "url": "https://github.com/specula-org/SysMoBench",
-      "description": "Benchmark suite and artifacts for system modeling and runtime verification; contributor on experiments and documentation."
+      "name": "Specular",
+      "url": "https://specularhq.ai/",
+      "description": "Specular (formerly Specula) generates TLA+ specifications from system code, checks them for bugs, and reproduces the findings in the implementation."
     },
     {
-      "name": "Specula",
-      "category": "portfolio",
-      "date": "",
-      "url": "https://github.com/specula-org/Specula",
-      "description": "Specification-focused tooling for monitoring real-world systems; contributor on tooling improvements and evaluations."
+      "name": "TLAPS-Bench",
+      "url": "https://specular-org.github.io/tlaps-bench-website/",
+      "description": "TLAPS-Bench evaluates AI agents on machine-checked proofs for real-world TLA+ specifications."
+    },
+    {
+      "name": "SysMoBench",
+      "url": "https://sysmobench.com/",
+      "description": "SysMoBench evaluates AI agents on writing formal specifications that match system implementations."
+    },
+    {
+      "name": "System Intelligence Benchmark",
+      "url": "https://github.com/sys-intelligence/system-intelligence-benchmark",
+      "description": "System Intelligence Benchmark evaluates AI capabilities across computing systems tasks."
+    },
+    {
+      "name": "Fluid",
+      "url": "https://fluid-cloudnative.github.io/",
+      "description": "Fluid is a CNCF project for data orchestration and acceleration on Kubernetes."
     }
+  ],
+  "awards": [
+    "TLAi+ Challenge, first place with Specula, 2025.",
+    "18th Challenge Cup, National First Prize with Fluid, 2023."
   ]
 }

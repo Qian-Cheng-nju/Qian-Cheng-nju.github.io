@@ -5,23 +5,23 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-### Specula
+### Specular
 
-An agentic system for finding deep bugs in concurrent and distributed system code. Specula generates and validates TLA+ specifications, uses model checking to discover violations, and reproduces confirmed findings in the implementation.
+An agentic system for finding deep bugs in concurrent and distributed system code. Specular (formerly Specula) generates and validates TLA+ specifications, uses model checking to discover violations, and reproduces confirmed findings in the implementation.
 
-[[Website](https://specula.info/)] [[GitHub](https://github.com/specula-org/Specula)] [[Paper](https://arxiv.org/abs/2607.25333)]
+[[Website](https://specularhq.ai/)] [[GitHub](https://github.com/specular-org/Specular)] [[Paper](https://arxiv.org/abs/2607.25333)]
 
 ### TLAPS-Bench
 
-A benchmark for evaluating AI's ability to write machine-checked proofs for the TLA+ Proof System. It supports both proof completion and proof construction from scratch, with reproducible evaluation and a public leaderboard.
+TLAPS-Bench evaluates whether AI agents can construct machine-checked proofs for real-world TLA+ specifications. The benchmark contains 265 proof targets from 95 specifications and provides a harness for developing and checking proofs with TLAPS.
 
-[[Website](https://specula-org.github.io/tlaps-bench-website/)] [[GitHub](https://github.com/specula-org/tlaps-bench)]
+[[Website](https://specular-org.github.io/tlaps-bench-website/)] [[GitHub](https://github.com/specular-org/TLAPS-Bench)] [[Paper](https://arxiv.org/abs/2611.02849)]
 
 ### SysMoBench
 
 A benchmark for evaluating AI's ability to formally model complex real-world systems. It measures whether generated TLA+ specifications are syntactically valid, executable, aligned with implementation behavior, and consistent with correctness properties.
 
-[[Website](https://sysmobench.com/)] [[GitHub](https://github.com/specula-org/SysMoBench)] [[Paper](https://arxiv.org/abs/2509.23130)]
+[[Website](https://sysmobench.com/)] [[GitHub](https://github.com/specular-org/SysMoBench)] [[Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/438c34f45d7b5d82aef1b6016e695d5a-Abstract-Conference.html)]
 
 ### System Intelligence Benchmark
 

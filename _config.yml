@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Qian Cheng | 程潜"
+title                    : "Qian Cheng"
 title_separator          : "-"
 name                     : &name "Qian Cheng"
 description              : &description "Qian Cheng's academic portfolio - PhD student in Computer Science at Nanjing University"   # Update this with a general description of your site, this is the default if not overridden by a page
